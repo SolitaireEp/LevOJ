@@ -2,7 +2,7 @@
 #include <math.h>
 
 int isprime(int);
-long long opp(long long);
+int opp(int);
 
 int main()
 {
@@ -10,9 +10,9 @@ int main()
 	scanf("%d", &n);
 	while (n--)
 	{
-		long long x;
-		scanf("%lld", &x);
-		long long y = opp(x);
+		int x;
+		scanf("%d", &x);
+		int y = opp(x);
 		if (isprime(x) && isprime(y))
 			printf("1\n");
 		else
@@ -33,10 +33,10 @@ int isprime(int a)
 		return 1;
 }
 
-long long opp(long long a)
+int opp(int a)
 {
 	int t = 0;
-	long long sum = 0;
+	int sum = 0;
 	for (; a; a = a / 10)
 	{
 		t = a % 10;
