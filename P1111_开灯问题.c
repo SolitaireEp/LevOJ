@@ -7,7 +7,7 @@ int main()
 	scanf("%d %d", &n,&k);
     for(j=2;j<=k;j++)
     {
-        for(i=j;i<=n;i=i+j)
+        for(i=j;i<=n;i=i+j)//注意初始化为i=j，否则WA
         {
 			a[i] = (a[i]==1?0:1);
 		}
