@@ -1,6 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
-
+//高精度算法
 array<int, 201> toIntArray(string num)
 {
 	array<int, 201> arr{};
