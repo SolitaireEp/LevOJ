@@ -1,6 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
-
+//贪心策略
 int main()
 {
 	int n,W;
