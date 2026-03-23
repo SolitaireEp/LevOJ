@@ -25,7 +25,7 @@ int main()
 	{
 		if (joseph(total, k, i + 1) <= m)
 		{
-			i = -1;
+			i = -1; //重置循环
 			k = next_k(k, total);
 			continue;
 		}
